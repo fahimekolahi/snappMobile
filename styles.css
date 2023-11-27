@@ -1,0 +1,17 @@
+@font-face {
+    font-family: IranSans;
+    src: url(./Iranian\ Sans.ttf)
+}
+
+*{
+    font-family:  IranSans;
+}
+
+.gridha{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 2.5rem;
+   
+   margin-left: auto;
+   margin-right: auto;
+}
